@@ -1,0 +1,16 @@
+
+  {
+    "name": "dungeon-magisters-compendium",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "npm run setup:server",
+      "setup:app": "npm run setup:server && npm run setup:client",
+      "setup:client": "cd dungeon-magisters-compendium.client && npm i",
+      "setup:server": "cd dungeon-magisters-compendium && npm i",
+      "start": "node dungeon-magisters-compendium/index.js"
+    },
+    "engines": {
+      "node": "^14.17.0"
+    }
+  }
+  
