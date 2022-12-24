@@ -1,5 +1,7 @@
 <template>
-  Campaigns page
+  <div class="fs-5">
+    Campaigns page
+  </div>
 </template>
 
 

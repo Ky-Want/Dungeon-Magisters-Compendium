@@ -1,5 +1,7 @@
 <template>
-  House Rules Page
+  <div class="fs-5">
+    House Rules Page
+  </div>
 </template>
 
 

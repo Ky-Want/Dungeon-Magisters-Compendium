@@ -8,8 +8,7 @@
         <div class="card mt-5 mb-3" style="width: 18rem;">
 
           <router-link :to="{ name: 'WorldBuilding' }">
-            <img src="https://i.pinimg.com/564x/d4/35/89/d435898a09be8844a4217c2e5690f617.jpg"
-              class="card-img-top selectable">
+            <img src="https://i.pinimg.com/564x/d4/35/89/d435898a09be8844a4217c2e5690f617.jpg" class="card-img-top btn">
           </router-link>
 
           <div class="card-body">
@@ -27,8 +26,7 @@
         <div class="card mt-5 mb-3" style="width: 18rem;">
 
           <router-link :to="{ name: 'HouseRules' }">
-            <img src="https://i.pinimg.com/564x/da/dd/27/dadd275d5f593ca544d63f65af8cef9e.jpg"
-              class="card-img-top selectable">
+            <img src="https://i.pinimg.com/564x/da/dd/27/dadd275d5f593ca544d63f65af8cef9e.jpg" class="card-img-top btn">
           </router-link>
 
           <div class="card-body">
@@ -48,8 +46,7 @@
         <div class="card mt-5 mb-3" style="width: 18rem;">
 
           <router-link :to="{ name: 'Campaigns' }">
-            <img src="https://i.pinimg.com/564x/08/ac/86/08ac865251cde1d84695097defa16cf4.jpg"
-              class="card-img-top selectable">
+            <img src="https://i.pinimg.com/564x/08/ac/86/08ac865251cde1d84695097defa16cf4.jpg" class="card-img-top btn">
           </router-link>
 
           <div class="card-body">
@@ -67,8 +64,7 @@
         <div class="card mt-5 mb-3" style="width: 18rem;">
 
           <router-link :to="{ name: 'Social' }">
-            <img src="https://i.pinimg.com/564x/07/1b/e8/071be870c2aa396291055c1c9cf0229b.jpg"
-              class="card-img-top selectable">
+            <img src="https://i.pinimg.com/564x/07/1b/e8/071be870c2aa396291055c1c9cf0229b.jpg" class="card-img-top btn">
           </router-link>
 
           <div class="card-body">
@@ -108,5 +104,15 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+}
+
+.btn {
+  transition: transform 250ms ease-in-out,
+    opacity 250ms linear;
+}
+
+.btn:hover,
+.btn:focus {
+  transform: scale(1.2);
 }
 </style>

@@ -1,5 +1,7 @@
 <template>
-  World Building Page
+  <div class="fs-5">
+    World Building Page
+  </div>
 </template>
 
 

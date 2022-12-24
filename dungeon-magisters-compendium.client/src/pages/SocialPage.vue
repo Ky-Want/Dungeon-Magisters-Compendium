@@ -1,5 +1,7 @@
 <template>
-  Social Page
+  <div class="fs-5">
+    Social Page
+  </div>
 </template>
 
 
