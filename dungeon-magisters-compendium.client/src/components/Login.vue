@@ -1,9 +1,10 @@
 <template>
   <span class="navbar-text">
-    <button class="btn selectable text-success lighten-30 text-uppercase my-2 my-lg-0" @click="login"
+    <button class="btn selectable text-primary lighten-30 text-uppercase my-2 my-lg-0" @click="login"
       v-if="!user.isAuthenticated">
       Login
     </button>
+
     <div v-else>
       <div class="dropdown dropstart my-2 my-lg-0">
         <div type="button" class="bg-dark border-0 selectable no-select" data-bs-toggle="dropdown"
@@ -12,6 +13,7 @@
             <img :src="account.picture || user.picture" alt="account photo" height="40" class="rounded" />
           </div>
         </div>
+
         <div class="dropdown-menu dropdown-menu-lg-left p-0" aria-labelledby="authDropdown">
           <div class="list-group">
             <router-link :to="{ name: 'Account' }">
@@ -30,10 +32,15 @@
   </span>
 </template>
 
+
+
+
+
 <script>
 import { computed } from 'vue'
 import { AppState } from '../AppState'
 import { AuthService } from '../services/AuthService'
+
 export default {
   setup() {
     return {
@@ -42,6 +49,7 @@ export default {
       async login() {
         AuthService.loginWithPopup()
       },
+
       async logout() {
         AuthService.logout({ returnTo: window.location.origin })
       }
@@ -50,5 +58,10 @@ export default {
 }
 </script>
 
+
+
+
+
 <style lang="scss" scoped>
+
 </style>

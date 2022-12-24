@@ -4,8 +4,12 @@
 @import "./_utilities.scss";
 @import "./loaders.scss";
 
-body{
+body {
   overscroll-behavior: none;
+}
+
+.justify-end {
+  justify-content: flex-end;
 }
 
 #app {
@@ -30,6 +34,7 @@ select {
     &:valid {
       border: 1px solid $success;
     }
+
     &:invalid {
       border: 1px solid $danger;
     }

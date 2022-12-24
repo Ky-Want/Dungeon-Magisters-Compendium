@@ -10,6 +10,9 @@
 
 
   <footer class="bg-dark text-light">
+    <router-link :to="{ name: 'About' }" class="btn text-primary lighten-30 selectable text-uppercase">
+      About
+    </router-link>
   </footer>
 </template>
 
