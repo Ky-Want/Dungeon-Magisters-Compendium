@@ -17,6 +17,26 @@ const routes = [
     component: loadPage('AboutPage')
   },
   {
+    path: '/worldBuilding',
+    name: 'WorldBuilding',
+    component: loadPage('WorldBuildingPage')
+  },
+  {
+    path: '/social',
+    name: 'Social',
+    component: loadPage('SocialPage')
+  },
+  {
+    path: '/houseRules',
+    name: 'HouseRules',
+    component: loadPage('HouseRulesPage')
+  },
+  {
+    path: '/campaigns',
+    name: 'Campaigns',
+    component: loadPage('CampaignsPage')
+  },
+  {
     path: '/account',
     name: 'Account',
     component: loadPage('AccountPage'),

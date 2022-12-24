@@ -1,5 +1,5 @@
 <template>
-  House Rules Page
+  Social Page
 </template>
 
 

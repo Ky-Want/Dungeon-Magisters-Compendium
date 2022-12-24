@@ -1,5 +1,5 @@
 <template>
-  House Rules Page
+  Campaigns page
 </template>
 
 
