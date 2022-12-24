@@ -1,6 +1,12 @@
 <template>
-  <div class="about">
-    <h1>This is the about page</h1>
+  <div class="my-3 mx-3">
+    Ideas for DM tool:
+    <br>
+    -Ability to search by author and setting name
+    <br>
+    -Ability to flag items as potentially problematic
+    <br>
+    -Ability to make categories for lore bits within a setting
   </div>
 </template>
 
