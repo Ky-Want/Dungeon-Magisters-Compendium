@@ -5,23 +5,24 @@
 @import "./loaders.scss";
 
 
-
-.home-bg {
-  background-repeat: no-repeat;
-  background-color: rgb(51, 44, 12);
-}
-
 .justify-end {
   justify-content: flex-end;
 }
 
+body {
+  overscroll-behavior: none;
+  // background-image: url("https://i.pinimg.com/736x/d1/d1/0a/d1d10a5c78823685943f9097b8a150ed.jpg");
+  // background-color: grey;
+  // background-repeat: no-repeat;
+  // background-size: contain;
+  // background-position: center;
+}
+
+
+
 
 
 /*#region: default*/
-body {
-  overscroll-behavior: none;
-}
-
 #app {
   display: flex;
   flex-direction: column;
