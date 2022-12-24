@@ -4,12 +4,22 @@
 @import "./_utilities.scss";
 @import "./loaders.scss";
 
-body {
-  overscroll-behavior: none;
+
+
+.home-bg {
+  background-repeat: no-repeat;
+  background-color: rgb(51, 44, 12);
 }
 
 .justify-end {
   justify-content: flex-end;
+}
+
+
+
+/*#region: default*/
+body {
+  overscroll-behavior: none;
 }
 
 #app {
@@ -45,3 +55,5 @@ form:invalid button[type="submit"] {
   filter: grayscale(1);
   pointer-events: none;
 }
+
+/*#endregion*/
