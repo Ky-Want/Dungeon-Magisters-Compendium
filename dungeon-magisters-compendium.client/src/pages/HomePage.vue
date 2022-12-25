@@ -5,7 +5,7 @@
     <div class="container">
       <!-- SECTION: World Building Card (home page) -->
       <div class="d-flex justify-content-between mb-3">
-        <div class="card mt-5 mb-3" style="width: 18rem;">
+        <div class="card mt-5 mb-3" style="width: 20rem;">
 
           <router-link :to="{ name: 'WorldBuilding' }">
             <img src="https://i.pinimg.com/564x/d4/35/89/d435898a09be8844a4217c2e5690f617.jpg" class="card-img-top btn">
@@ -23,7 +23,7 @@
 
 
         <!-- SECTION: House Rules Card (home page) -->
-        <div class="card mt-5 mb-3" style="width: 18rem;">
+        <div class="card mt-5 mb-3" style="width: 20rem;">
 
           <router-link :to="{ name: 'HouseRules' }">
             <img src="https://i.pinimg.com/564x/da/dd/27/dadd275d5f593ca544d63f65af8cef9e.jpg" class="card-img-top btn">
@@ -43,7 +43,7 @@
 
       <!-- SECTION: Campaigns Card (home page) -->
       <div class="d-flex justify-content-between">
-        <div class="card mt-5 mb-3" style="width: 18rem;">
+        <div class="card mt-5 mb-3" style="width: 20rem;">
 
           <router-link :to="{ name: 'Campaigns' }">
             <img src="https://i.pinimg.com/564x/08/ac/86/08ac865251cde1d84695097defa16cf4.jpg" class="card-img-top btn">
@@ -61,7 +61,7 @@
 
 
         <!-- SECTION: Social Card (home page) -->
-        <div class="card mt-5 mb-3" style="width: 18rem;">
+        <div class="card mt-5 mb-3" style="width: 20rem;">
 
           <router-link :to="{ name: 'Social' }">
             <img src="https://i.pinimg.com/564x/07/1b/e8/071be870c2aa396291055c1c9cf0229b.jpg" class="card-img-top btn">
