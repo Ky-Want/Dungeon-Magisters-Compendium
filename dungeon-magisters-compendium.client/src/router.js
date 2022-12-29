@@ -17,7 +17,7 @@ const routes = [
     component: loadPage('AboutPage')
   },
   {
-    path: '/worldBuilding',
+    path: '/worldbuilding',
     name: 'WorldBuilding',
     component: loadPage('WorldBuildingPage')
   },
@@ -27,7 +27,7 @@ const routes = [
     component: loadPage('SocialPage')
   },
   {
-    path: '/houseRules',
+    path: '/houserules',
     name: 'HouseRules',
     component: loadPage('HouseRulesPage')
   },
