@@ -10,7 +10,8 @@
 
 
 
-    <div class="bg-primary combat-div align-items-center mx-3 selectable btn">
+    <div class="bg-primary combat-div align-items-center mx-3 selectable btn" data-bs-toggle="modal"
+      data-bs-target="#statsModal">
       <div class="fs-4">
         <strong>Stats</strong>
       </div>
@@ -18,7 +19,8 @@
 
 
 
-    <div class="bg-primary combat-div align-items-center mx-3 selectable btn">
+    <div class="bg-primary combat-div align-items-center mx-3 selectable btn" data-bs-toggle="modal"
+      data-bs-target="#actionsModal">
       <div class="fs-4">
         <strong>Actions</strong>
       </div>
@@ -26,7 +28,8 @@
 
 
 
-    <div class="bg-primary combat-div align-items-center mx-3 selectable btn">
+    <div class="bg-primary combat-div align-items-center mx-3 selectable btn" data-bs-toggle="modal"
+      data-bs-target="#environmentModal">
       <div class="fs-4">
         <strong>Environment</strong>
       </div>
@@ -34,7 +37,8 @@
 
 
 
-    <div class="bg-primary combat-div align-items-center mx-3 selectable btn">
+    <div class="bg-primary combat-div align-items-center mx-3 selectable btn" data-bs-toggle="modal"
+      data-bs-target="#movementModal">
       <div class="fs-4">
         <strong>Movement</strong>
       </div>
@@ -42,7 +46,8 @@
 
 
 
-    <div class="bg-primary combat-div align-items-center mx-3 selectable btn">
+    <div class="bg-primary combat-div align-items-center mx-3 selectable btn" data-bs-toggle="modal"
+      data-bs-target="#miscModal">
       <div class="fs-4">
         <strong>Miscellaneous</strong>
       </div>
@@ -50,6 +55,7 @@
 
 
     <CombatModal />
+    <StatsModal />
   </div>
 </template>
 
@@ -61,6 +67,7 @@
 
 <script>
 import CombatModal from "../components/RulesModals/CombatModal.vue";
+import StatsModal from "../components/RulesModals/StatsModal.vue";
 
 export default {
   setup() {
@@ -69,7 +76,8 @@ export default {
     }
   },
   components: {
-    CombatModal
+    CombatModal,
+    StatsModal,
   },
 }
 </script>

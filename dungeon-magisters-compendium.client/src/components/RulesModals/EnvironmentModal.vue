@@ -1,10 +1,10 @@
 <template>
-  <div class="modal fade modal-fullscreen" id="statsModal" tabindex="-1" aria-labelledby="statsModalLabel"
+  <div class="modal fade modal-fullscreen" id="environmentModal" tabindex="-1" aria-labelledby="environmentModalLabel"
     aria-hidden="true">
     <div class="modal-dialog modal-dialog-scrollable modal-fullscreen">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5" id="statsModalLabel">Stat Rules</h1>
+          <h1 class="modal-title fs-5" id="environmentModalLabel">Environment Rules</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
