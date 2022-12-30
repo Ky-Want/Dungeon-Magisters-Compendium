@@ -107,12 +107,12 @@ body {
 }
 
 .btn {
-  transition: transform 250ms ease-in-out,
+  transition: transform 290ms ease-in-out,
     opacity 250ms linear;
 }
 
 .btn:hover,
 .btn:focus {
-  transform: scale(1.2);
+  transform: scale(1.17);
 }
 </style>
