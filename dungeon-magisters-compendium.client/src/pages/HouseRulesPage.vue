@@ -103,6 +103,7 @@ export default {
 
 
 <style scoped lang="scss">
+/*#region: Styling*/
 body {
   min-height: 90vh;
   overscroll-behavior: none;
@@ -123,9 +124,18 @@ body {
   border-radius: .2rem;
 }
 
+.black-outline {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
 .flex-direction-column {
   flex-direction: column;
 }
+
+/*#endregion*/
+
+
 
 .btn {
   transition: transform 300ms ease-in-out,
@@ -137,10 +147,7 @@ body {
   transform: scale(1.25);
 }
 
-.black-outline {
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
-}
+
 
 /*#region: Tab Background Images*/
 .env-bg {
