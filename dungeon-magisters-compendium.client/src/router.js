@@ -7,6 +7,12 @@ function loadPage(page) {
 
 const routes = [
   {
+    path: '/account',
+    name: 'Account',
+    component: loadPage('AccountPage'),
+    beforeEnter: authGuard
+  },
+  {
     path: '/',
     name: 'Home',
     component: loadPage('HomePage')
@@ -35,12 +41,6 @@ const routes = [
     path: '/campaigns',
     name: 'Campaigns',
     component: loadPage('CampaignsPage')
-  },
-  {
-    path: '/account',
-    name: 'Account',
-    component: loadPage('AccountPage'),
-    beforeEnter: authGuard
   }
 ]
 

@@ -3,7 +3,7 @@
   <body class="home-bg">
 
     <div class="container">
-      <!-- SECTION: World Building Card (home page) -->
+      <!-- World Building Card (home page) -->
       <div class="d-flex justify-content-between mb-3">
         <div class="card mt-5 mb-3" style="width: 20rem;">
 
@@ -22,7 +22,7 @@
 
 
 
-        <!-- SECTION: House Rules Card (home page) -->
+        <!-- House Rules Card (home page) -->
         <div class="card mt-5 mb-3" style="width: 20rem;">
 
           <router-link :to="{ name: 'HouseRules' }">
@@ -41,7 +41,7 @@
 
 
 
-      <!-- SECTION: Campaigns Card (home page) -->
+      <!-- Campaigns Card (home page) -->
       <div class="d-flex justify-content-between">
         <div class="card mt-5 mb-3" style="width: 20rem;">
 
@@ -60,7 +60,7 @@
 
 
 
-        <!-- SECTION: Social Card (home page) -->
+        <!-- Social Card (home page) -->
         <div class="card mt-5 mb-3" style="width: 20rem;">
 
           <router-link :to="{ name: 'Social' }">
