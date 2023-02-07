@@ -1,6 +1,6 @@
 <template>
   <div class="fs-5">
-    Social Page
+    Player Haters Chat
   </div>
 </template>
 
