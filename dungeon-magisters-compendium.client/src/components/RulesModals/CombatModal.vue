@@ -15,7 +15,7 @@
           </button>
 
           <!-- #region: Collapsible rules description -->
-          <div class="wrap-collapsible">
+          <div class="wrap-collapsible mb-4">
             <input id="collapsible" class="toggle" type="checkbox">
             <label for="collapsible" class="lbl-toggle">Rule Title</label>
             <div class="collapsible-content">
@@ -36,6 +36,27 @@
             </div>
           </div>
           <!-- #endregion -->
+
+
+
+
+
+          <!-- #region: Collapsible rules description #2 -->
+          <button type="button" class="collapsible">Open Collapsible</button>
+          <div class="content">
+            <p>Lorem ipsum...</p>
+          </div>
+
+
+
+          <button type="button" class="collapsible">Open Collapsible</button>
+          <div class="content">
+            <p>Lorem ipsum...</p>
+          </div>
+          <!-- #endregion -->
+
+
+
 
         </div>
       </div>
@@ -74,6 +95,38 @@ export default {
 
 
 <style scoped lang="scss">
+// Styling for collapsible #2
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+
+
+
+
 input[type='checkbox'] {
   display: none;
 }
