@@ -1,5 +1,4 @@
 <template>
-
   <body class="d-flex align-items-center gap-5 flex-direction-column padding-top">
 
     <div class="bg-primary combat-div align-items-center mx-3 selectable btn com-bg" data-bs-toggle="modal"

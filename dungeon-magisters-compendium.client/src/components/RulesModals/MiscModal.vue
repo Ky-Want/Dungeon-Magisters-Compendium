@@ -7,9 +7,17 @@
           <h1 class="modal-title fs-5" id="miscModalLabel">Miscellaneous Rules</h1>
           <button type="button" class="btn-close elevation-3" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
+
         <div class="modal-body">
-          ...
+          <div>
+            <button>New Entry</button>
+          </div>
+
+          <div class="mt-5 mb-3 p-2 selectable">
+            Title of entry goes here, when clicked modal of full description should pop up.
+          </div>
         </div>
+
         <div class="modal-footer">
           <button type="button" class="btn btn-primary">Save changes</button>
         </div>
@@ -42,6 +50,4 @@ export default {
 
 
 
-<style scoped lang="scss">
-
-</style>
+<style scoped lang="scss"></style>
