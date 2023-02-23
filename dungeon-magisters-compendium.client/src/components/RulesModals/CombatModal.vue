@@ -23,9 +23,8 @@
                 <p>
                   Description of rule goes here.
                 </p>
-                <br>
 
-                <div class="d-flex justify-content-between">
+                <div class="mt-5 d-flex justify-content-between">
                   <button class="selectable p-1">
                     Delete Rule
                   </button>
