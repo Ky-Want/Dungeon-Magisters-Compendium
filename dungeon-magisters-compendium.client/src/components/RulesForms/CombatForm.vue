@@ -1,29 +1,28 @@
 <template>
   <div class="modal fade" id="newCombatModalEntry" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    aria-labelledby="combatFormBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-scrollable">
       <div class="modal-content">
-
         <div class="modal-header">
-          <h1 class="modal-title fs-5" id="staticBackdropLabel">Entry title</h1>
+          <h1 class="modal-title fs-5" id="combatFormBackdropLabel">Entry title</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
 
+        <!-- Form parts Title and Description are listed below -->
         <div class="modal-body">
-          <!-- FIXME: can't type into inputs without holding left click on input -->
-          <div class="form-floating mb-3">
-            <input type="text" class="form-control" id="floatingInput" placeholder="rule name">
-            <label for="floatingInput">Rule Title</label>
+          <div class="mb-3">
+            <label for="RuleTitleInput" class="form-label"></label>
+            <input type="text" class="form-control" id="RuleTitleInput" placeholder="Rule Title">
           </div>
-
-          <div class="form-floating">
-            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-            <label for="floatingTextarea">Description</label>
+          <div class="mb-3">
+            <label for="DescriptionInput" class="form-label"></label>
+            <textarea class="form-control" id="DescriptionInput" rows="3" placeholder="Description"></textarea>
           </div>
         </div>
 
+        <!-- Save button, should update the Combat Rules modal with new rule entry and close ONLY if an entry has been added -->
         <div class="modal-footer">
-          <button type="button" class="btn btn-primary">Save</button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Save</button>
         </div>
       </div>
     </div>
