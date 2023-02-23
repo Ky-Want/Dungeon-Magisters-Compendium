@@ -6,18 +6,24 @@
 
         <div class="modal-header">
           <h1 class="modal-title fs-5" id="staticBackdropLabel">Entry title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
 
         <div class="modal-body">
-          <div class="mt-3 mb-2">
-            Description of the rule goes here.
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-            No max length since it's scrollable.
+          <!-- FIXME: can't type into inputs without holding left click on input -->
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingInput" placeholder="rule name">
+            <label for="floatingInput">Rule Title</label>
+          </div>
+
+          <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+            <label for="floatingTextarea">Description</label>
           </div>
         </div>
 
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save</button>
         </div>
       </div>
     </div>
@@ -38,10 +44,7 @@ export default {
     return {
 
     }
-  },
-  components: {
-
-  },
+  }
 }
 </script>
 
