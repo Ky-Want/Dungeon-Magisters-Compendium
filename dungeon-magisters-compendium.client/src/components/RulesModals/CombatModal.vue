@@ -18,7 +18,7 @@
 
 
 
-          <!-- FIXME: collapsible #1 opens instead of #2 when #2 is clicked -->
+          <!-- FIXME: collapsible #1 opens instead of #2 when #2 is clicked. Probably an issue with the classes -->
           <!-- #region: Collapsible rules description -->
           <div class="wrap-collapsible mb-4">
             <input id="collapsible" class="toggle" type="checkbox">
