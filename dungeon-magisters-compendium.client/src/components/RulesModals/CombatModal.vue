@@ -15,9 +15,6 @@
           </button>
 
 
-
-
-
           <!-- FIXME: collapsible #1 opens instead of #2 when #2 is clicked. Probably an issue with the classes -->
           <!-- #region: Collapsible rules description -->
           <div class="wrap-collapsible mb-4">
@@ -41,33 +38,6 @@
             </div>
           </div>
           <!-- #endregion -->
-
-
-          <!-- #region: Collapsible rules description #2 -->
-          <div class="wrap-collapsible mb-4">
-            <input id="collapsible" class="toggle" type="checkbox">
-            <label for="collapsible" class="lbl-toggle">Rule Title</label>
-            <div class="collapsible-content">
-              <div class="content-inner">
-                <p>
-                  Description of rule goes here.
-                </p>
-
-                <div class="mt-5 d-flex justify-content-between">
-                  <button class="selectable p-1">
-                    Delete Rule
-                  </button>
-                  <button class="selectable p-1">
-                    Edit Rule
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- #endregion -->
-
-
-
 
 
         </div>
